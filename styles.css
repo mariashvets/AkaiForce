@@ -1,0 +1,61 @@
+body {
+    background: #000000;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+.fw-800 {
+    font-weight: 800;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.fs-60 {
+    font-size: 60px;
+}
+
+.fs-70 {
+    font-size: 70px;
+}
+
+.lh-60 {
+    line-height: 60px;
+}
+
+.bg {
+    background: url("images/akaiforce1.jpeg") no-repeat center;
+    height: 700px;
+    background-size: cover;
+}
+
+.gradient-title {
+    text-transform: uppercase;
+    background: linear-gradient(90deg, rgba(180,58,179,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #833ab4;
+    margin: 20px auto;
+}
+
+.gradient-btn {
+    background: linear-gradient(to right, rgba(180,58,179,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.gradient-btn:hover {
+    background-position: right center;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
